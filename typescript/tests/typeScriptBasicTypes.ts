@@ -1,5 +1,5 @@
 #!/usr/bin/env tsx
-const {
+import {
   var1Boolean,
   var2Decimal,
   var3Hex,
@@ -16,7 +16,7 @@ const {
   var13Null,
   var14Undefined,
   var15NeverFunction,
-} = require("../typeScriptBasicTypes");
+} from "../typeScriptBasicTypes";
 
 console.log(var1Boolean);
 console.log(var2Decimal, var3Hex, var4Binary, var5Octal);

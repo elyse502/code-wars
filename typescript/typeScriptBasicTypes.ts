@@ -67,7 +67,7 @@ function var15NeverFunction() {
   throw new Error("Error");
 }
 
-module.exports = {
+export {
   var1Boolean,
   var2Decimal,
   var3Hex,
